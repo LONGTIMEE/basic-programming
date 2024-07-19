@@ -8,13 +8,13 @@ console.log (want_to_go_home)
 console.log (y)
 
 === // เท่ากับ
-  === // ไม่เท่ากับ
+  !== // ไม่เท่ากับ
   > // มากกว่า
   < // น้อยกว่า
   >= // มากว่าหรือเท่ากับ
   <= // น้อยกว่าหรือเท่ากับ
 
-  const a: number = 27
+const a: number = 27
 const b : number =  16
 
 console.log(a===b)
