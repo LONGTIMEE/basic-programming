@@ -9,7 +9,8 @@ console.log(add(10,14))
 
 เเบบทดสอบ
 1.รับเลขมา2ตัว เเล้วลบกัน
-2.รับเลข4ตัว เเล้วเอาทั้งหมดมาคูณ
+2.รับเลข4ตัว เเล้วเอาทั้งหมดมาคูณกัน
+
 function remove(a: number,b: number) {
     return a-b
 }
@@ -18,5 +19,22 @@ console.log(remove(8,16))
 function add(a: number,b: number,c: number,d: number) {
     return a*b*c*d
 }
-
 console.log(add(10,14,10,3))
+
+function x(a: string,b: number) {
+    return a+b
+}
+console.log(x(14,20))
+
+
+function grade(homework: number,midterm: number,final: number) {
+    let score: number = homework + midterm + final
+
+    if (score < 50) {
+        return 'fail'
+    } else {
+        return 'pass'
+    }
+}
+
+console.log(grade(45,23,14))
