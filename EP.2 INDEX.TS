@@ -62,3 +62,7 @@ if (score < 50) {
     
 }   
     console.log(grade(15,27,36))
+    console.log(grade(45,10,6))
+    console.log(grade(4,6,12))
+    console.log(grade(45,20,18))
+    console.log(grade(1,40,15))
