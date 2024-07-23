@@ -38,3 +38,27 @@ function grade(homework: number,midterm: number,final: number) {
 }
 
 console.log(grade(45,23,14))
+
+
+
+ืืทดลองหลายตัวเเปร
+
+function grade(homework: number,midterm: number,final: number) {
+    let score: number = homework + midterm + final
+
+
+if (score < 50) {
+    return 'grade f'
+    } else if (score < 60) {
+    return 'grade D'
+    } else if (score < 70) {
+        return 'grade C'
+    } else if (score < 80) {
+        return 'grade B'
+    } else {
+        return 'grade A'
+    }
+
+    
+}   
+    console.log(grade(15,27,36))
