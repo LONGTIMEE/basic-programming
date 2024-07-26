@@ -87,15 +87,15 @@ function Man(Sex:string, height:number, weight: number) {
 }
 Man('Male',100,40)
 
-if (Sex === 'Male' && (height  > 170  || (weight ===> 50  && weight <=110 ))) {
+if (Sex === 'Male' && (Height  > 170  || (Weight ===> 50  && Weight <=110 ))) //ลอง
 
 
 
-    function Digtal(old:number, salary:number, Total : number) {
-    if (old >= 16 && (salary  <=70000  && (Total  <+50000 ))) { 
-        console.log('get 10000')
+    function Digtal(Old:number, Salary:number, Total : number) {
+    if (Old >= 16 && (Salary  <=70000  && (Total  <=500000 ))) { 
+        console.log('You Get 10000')
     }   else {
-        console.log('error')
+        console.log('You Are Not In Condition')
     }
     
 }
