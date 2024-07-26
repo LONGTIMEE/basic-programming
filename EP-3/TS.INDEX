@@ -1,0 +1,19 @@
+function helloWorld() {
+    console.log("สวัสดี")
+}
+
+helloWorld() // ไม่มี input ไม่มี output
+
+function helloName (name:string) {
+    console.log(name) //ปริ้นออกมา เเต่ไม่ใช่outputนะจ้ะ
+}
+
+ (helloName('MAR')) //มีinput ไม่มี output
+console.log helloName('MAR')
+
+function getPi() {
+    return 3.42
+    
+}
+
+console.log(getPi()) // ไม่มีinput เเต่มีoutput

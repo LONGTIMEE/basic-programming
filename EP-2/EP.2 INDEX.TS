@@ -43,7 +43,7 @@ console.log(grade(45,23,14))
 
 ืืทดลองหลายตัวเเปร
 
-function grade(homework: number,midterm: number,final: number) {
+function grade(homework: number,midterm: number,final: number) { //input 3 ตัว
     let score: number = homework + midterm + final
 
 
