@@ -102,4 +102,4 @@ console.log(boy(200000))
 
 const str:string = "hello"
 
-console.log(str.length) //นับตัวอักษร
+console.log(str.length) //นับคำ
