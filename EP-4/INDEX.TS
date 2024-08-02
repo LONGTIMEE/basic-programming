@@ -103,3 +103,7 @@ console.log(boy(200000))
 const str:string = "hello"
 
 console.log(str.length) //นับคำ
+
+const str:string = "ณเดชณ์ ณ บางเเค ช่วยเเม่ขายข้าวมันไก่"
+
+console.log(str.charAt(1)) //เรียกตัวอักษรในประโยค
