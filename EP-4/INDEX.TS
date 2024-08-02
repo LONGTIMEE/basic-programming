@@ -1,28 +1,50 @@
 function sayhi(dayofweek:number) {
     switch (dayofweek)
     {case 1 :
-        console.log('วันอาทิตย์')
+        console.log('SunDay')
         break
     case 2 :
-        console.log('วันจันทร์')
+        console.log('MonDay')
         break 
     case 3 :
-        console.log('วันอัง')
+        console.log('TuesDay')
         break
     case 4 :
-        console.log('วันพุธ')
+        console.log('Wednesday')
         break
     case 5 :
-        console.log('วันพฤหัสบดี')
+        console.log('Thursday')
         break
     case 6 :
-        console.log('วันศุกร์')
+        console.log('FriDay')
         break 
     case 7 :
-        console.log('วันเสาร์')
+        console.log('Saturday')
         break
     default:
         console.log('PutWorngDay')
     }
 }
 sayhi(2)
+
+function ShirtSize(size:string) {  //ทดลองเเบบอย่างอื่น
+    switch (size)
+    {case ('s') :
+        console.log('Underweight')
+        break
+    case ('m') :
+        console.log('Underweight')
+        break 
+    case ('l') :
+        console.log('Overweight')
+        break
+    case ('xl') :
+        console.log('Obesity')
+        break
+    case ('2xl') :
+        console.log('Obesity')
+    default:
+        console.log('PutWorngDay')
+    }
+}
+ShirtSize('l')
