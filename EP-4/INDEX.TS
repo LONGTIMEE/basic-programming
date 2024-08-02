@@ -106,4 +106,53 @@ console.log(str.length) //นับคำ
 
 const str:string = "ณเดชณ์ ณ บางเเค ช่วยเเม่ขายข้าวมันไก่"
 
-console.log(str.charAt(1)) //เรียกตัวอักษรในประโยค
+console.log(str.charAt(1)) //เรียกตัวอักษรในประโยค หรือ ดึงตัวอักษรจากประโยค
+
+const str:string = "      ณเดชณ์ ณ บางเเค ช่วยเเม่ขายข้าวมันไก่   "
+
+console.log(str.trimStart()) //เอาช่องว่างช่วงเเรกออก
+
+const str:string = "      ณเดชณ์ ณ บางเเค ช่วยเเม่ขายข้าวมันไก่   "
+
+console.log(str.trimEnd()) //เอาช่องว่างข้องหลังออก
+
+const str:string = "      ณเดชณ์ ณ บางเเค ช่วยเเม่ขายข้าวมันไก่   "
+
+console.log(str.trim()) //เอาช่องว่างข้างหน้าเเละหลังออก
+
+const str:string = "Achitphol Lertvilnaris"
+
+console.log(str.toUpperCase())//ทำให้เป็นพิมพ์ใหญ่
+
+const str:string = "Achitphol Lertvilnaris"
+
+console.log(str.toLowerCase())// ทำให้เป็นพิมพ์เล็ก
+
+// ทดลองความยาวของข้อความออกมาโดย
+function CheckStringLength(x:string) {
+    console.log(x.length)
+    }
+CheckStringLength('กหฟกหฟกฟฟกหฟกหฟกฟกหหฟกก')
+//ทดลอง
+function body(x:string,c:number) {
+    return x.charAt(c)
+ }   
+ console.log(body('กินข้าวกันบ่',5))
+
+ const str:string = 'อยากกลับบ้าน'
+
+console.log(str.indexOf('ก'))//หาตัวอักกษรว่าอยุ่ตำเเหน่งใหน
+
+const str1:string = 'ฉันรักคุณเเละเขา'
+
+console.log(str1.includes('คุณ'))// ถามว่าในคำๆนั้นมี คำนี้หรือป่าว จริง หรือ ไม่จริง
+
+function CheckSomeTing(str:string, search: string) { //เเบบทดสอบ
+    if (str.includes(search)) {
+         console.log(str.indexOf(search))
+     } else {
+     console.log("NotInCorrect")
+     }
+ }
+ CheckSomeTing('ผมรักคุณนะ','คุณ')
+  CheckSomeTing('ผมรักคุณนะ','เจอ')
