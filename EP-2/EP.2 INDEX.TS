@@ -1,15 +1,15 @@
 function add(a: number,b: number) {
     return a+b
 }
-cd
-ep2
-ep2>ts-node index.ts
+// cd
+// ep2
+// ep2>ts-node index.ts
 
 console.log(add(10,14))
 
-เเบบทดสอบ
-1.รับเลขมา2ตัว เเล้วลบกัน
-2.รับเลข4ตัว เเล้วเอาทั้งหมดมาคูณกัน
+// เเบบทดสอบ
+// 1.รับเลขมา2ตัว เเล้วลบกัน
+// 2.รับเลข4ตัว เเล้วเอาทั้งหมดมาคูณกัน
 
 function remove(a: number,b: number) {
     return a-b
@@ -40,8 +40,7 @@ function grade(homework: number,midterm: number,final: number) {
 console.log(grade(45,23,14))
 
 
-
-ืืทดลองหลายตัวเเปร
+//ทดลองหลายตัวเเปร
 
 function grade(homework: number,midterm: number,final: number) { //input 3 ตัว
     let score: number = homework + midterm + final

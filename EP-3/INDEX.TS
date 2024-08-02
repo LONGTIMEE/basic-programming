@@ -8,8 +8,8 @@ function helloName (name:string) {
     console.log(name) //ปริ้นออกมา เเต่ไม่ใช่outputนะจ้ะ
 }
 
- (helloName('MAR')) //มีinput ไม่มี output
-console.log helloName('MAR')
+ (hellonick('MAR')) //มีinput ไม่มี output
+console.loghellonick('MAR')
 
 function getPi() {
     return 3.42
@@ -87,7 +87,7 @@ function Man(Sex:string, height:number, weight: number) {
 }
 Man('Male',100,40)
 
-if (Sex === 'Male' && (Height  > 170  || (Weight ===> 50  && Weight <=110 ))) //ลอง
+if (Sex === 'Male' && (Height  > 170  || (Weight === 50  && Weight <=110 ))) //ลอง
 
 
 
