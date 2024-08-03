@@ -58,7 +58,7 @@
 
 
 
-(str.trim()) //เอาช่องว่างข้างหน้าเเละหลังออก               
+(___.trim()) //เอาช่องว่างข้างหน้าเเละหลังออก               
     ///อย่างเช่น
         ///const str:string = "      HelloMyNameIsArm      "
             ///console.log(str.trim())  
