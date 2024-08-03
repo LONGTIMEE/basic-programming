@@ -1,4 +1,4 @@
-(str.length) //นับตัวอักษรให้ว่ามีกี่ตัว
+(___.length) //นับตัวอักษรให้ว่ามีกี่ตัว
     ///อย่างเช่น
         ///const str:string = "HelloMyNameIsArm"
             ///console.log(str.length) 
@@ -6,7 +6,7 @@
            
 
 
-(str.charAt(0)) //เรียกตัวอักษรในประโยค หรือ ดึงตัวอักษรจากประโยค เริ่มต้นที่0 เช็คตำเเหน่งตัวอักษรนั้น ว่าตำเเหน่งนั้นคือตัวอักษรอะไร
+(___.charAt(0)) //เรียกตัวอักษรในประโยค หรือ ดึงตัวอักษรจากประโยค เริ่มต้นที่0 เช็คตำเเหน่งตัวอักษรนั้น ว่าตำเเหน่งนั้นคือตัวอักษรอะไร
     ///อย่างเช่น
          ///const str:charAt = "HelloMyNameIsArm"
              ///console.log(str.charAt(5))
@@ -15,7 +15,7 @@
 
 
 
-(str.trimStart()) //เอาช่องว่างช่วงเเรกออก
+(___.trimStart()) //เอาช่องว่างช่วงเเรกออก
     ///อย่างเช่น
         ///const str:string = "      HelloMyNameIsArm      "
             ///console.log(str.trimStart())
@@ -23,7 +23,7 @@
 
 
 
-(str.trimEnd()) //เอาช่องว่างข้องหลังออก     
+(___.trimEnd()) //เอาช่องว่างข้องหลังออก     
     ///อย่างเช่น       
         ///const str:string = "      HelloMyNameIsArm      "
             ///console.log(str.trimEnd())             
@@ -39,7 +39,7 @@
                 
                 
 
-(str.toUpperCase())//ทำให้เป็นพิมพ์ใหญ่ทั้งหมด
+(___.toUpperCase())//ทำให้เป็นพิมพ์ใหญ่ทั้งหมด
     ///อย่างเช่น
         /// const str:string = "Achitphol Lertvilnaris"
             ///console.log(str.toUpperCase()) 
@@ -47,7 +47,7 @@
 
 
 
-(str.toLowerCase())// ทำให้เป็นพิมพ์เล็ก                
+(___.toLowerCase())// ทำให้เป็นพิมพ์เล็ก                
     ///อย่างเช่น              
         ///const str:string = "Achitphol Lertvilnaris"
             ///console.log(str.toLowerCase())   
@@ -55,8 +55,14 @@
                 
                 
 
-(str.indexOf('?'))//หาตัวอักษรนั้นว่าอยุ่ตำเเหน่งที่เท่าไหร่               
+(___.indexOf('?'))//หาตัวอักษรนั้นว่าอยุ่ตำเเหน่งที่เท่าไหร่               
     ///อย่างเช่น
         ///const str:string = 'อยากกลับบ้าน'
             ///console.log(str.indexOf('ก'))
                 ///คำตอบ = 3
+
+
+
+(___.includes('?'))// ถามว่าในคำๆนั้นมี คำนี้หรือป่าว จริง หรือ ไม่จริงconst str1:string = 'ฉันรักคุณเเละเขา'
+
+console.log(str1.includes('คุณ'))// ถามว่าในคำๆนั้นมี คำนี้หรือป่าว จริง หรือ ไม่จริง                
