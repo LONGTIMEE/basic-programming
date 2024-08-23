@@ -12,3 +12,11 @@ console.log(10)
 the for loop
 the while loop
 the do while loop
+
+for1 (let i = 0 ; i <5 ; i++) {
+    text += "the number is" + i + "br>" ;
+}
+
+for (let i = 0; i <=10 ; i++) {              //
+    console.log(i)  
+}
