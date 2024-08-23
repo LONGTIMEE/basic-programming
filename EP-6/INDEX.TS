@@ -27,3 +27,23 @@ for(let i = 1; i<=365; i++) {
 
 
 console.log('total: ', sum)
+
+
+let sum: number = 0
+
+for(let i = 1; i<=31; i++) {        //วิธีการเพิ่มตัวเเปรเก็บรอบ
+    sum = sum + i
+}
+
+
+console.log('total: ', sum)
+
+let sum:number = 0
+let i: number = 1
+
+while (i<=31) {     //i<=31เงื่อนไข
+    sum= sum+ i
+    i++
+}
+
+console.log('total: ', sum)
