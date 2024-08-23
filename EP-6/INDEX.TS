@@ -1,17 +1,8 @@
-console.log(1)                
-console.log(2)
-console.log(3)                
-console.log(4)
-console.log(5)                
-console.log(6)
-console.log(7)                
-console.log(8)
-console.log(9)                
-console.log(10)
 
-the for loop
-the while loop
-the do while loop
+// loop มี3 ประเภท
+// the for loop
+// the while loop
+// the do while loop
 
 
 
@@ -72,4 +63,69 @@ while (true) {
   if (count === 10) {
     break
   }
+}
+
+// เเบบทดสอบ
+// let count: number = 0
+
+// while (true) {
+//   console.log("ฉันอายุ ...รอบ...ปีเเล้ว")
+//   count++
+//   if (count === 2) {
+//     break
+//   }
+// }
+// ทั้ง3รูปเเบบ
+for (let i = 1; i<= 13; i++) {
+    console.log('ฉันอายุ ' + i + 'ปี')
+  }
+  
+  let x:number = 1
+  while (x <=13) {
+    console.log('ฉันอายุ ' + x + 'ปี')
+    x++
+  }
+  
+  let y:number = 1
+  do {
+    console.log('ฉันอายุ ' + y +'ปี')
+    y++
+  }while (y <=13)
+
+// เริ่มเข้า Arry
+
+let car1 : string = 'Toyota'
+let car2 : string = 'Honda'
+let car3 : string = 'Suzuki'
+let car4 : string = 'YaMaHa'
+let car5 : string = 'Mazada'
+let car6 : string = 'ฺBaBaGa'
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+const num:number = [1,2,3,4,5]
+const bool:boolean = [True,True,false,false]
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+
+console.log(cars[1])
+
+const str:string = 'ชอบก็จัด ประหยัดทำไม'
+
+console.log(str[2])
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+
+console.log(cars.length)
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+
+cars[2] = 'Isuzu' //เพราะว่ามีข้อยกเว้น
+
+console.log(cars[2])
+
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+
+for (let i = 0; i < 5; i++) {
+  console.log(cars[i])
 }
