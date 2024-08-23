@@ -129,3 +129,9 @@ const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 for (let i = 0; i < 5; i++) {
   console.log(cars[i])
 }
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
+
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i])
+}
