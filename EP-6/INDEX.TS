@@ -135,3 +135,29 @@ const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 for (let i = 0; i < cars.length; i++) {
   console.log(cars[i])
 }
+
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada']
+
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i] === 'YaMaHa') {
+    console.log('รถซื้อเเกงจะไปเเรงได้ไง')
+  }
+}
+
+let i: number = 0
+
+while (i < cars.length) {
+  if (cars[i] === 'YaMaHa') {
+    console.log('รถซื้อเเกงจะไปเเรงได้ไง')
+  }
+}
+
+const number:number[] = [1,2,3,4,5,6,7,8,9,10]
+
+for (let i = 0; i <=10; i++) {
+  if (number[i] === 3 || number[i] === 5 || number[i] === 7) {
+    number [i] = (0)
+    
+  }      
+}
+console.log(number)
