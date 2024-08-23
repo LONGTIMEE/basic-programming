@@ -13,10 +13,17 @@ the for loop
 the while loop
 the do while loop
 
-for1 (let i = 0 ; i <5 ; i++) {
-    text += "the number is" + i + "br>" ;
-}
+
 
 for (let i = 0; i <=10 ; i++) {              //
     console.log(i)  
 }
+
+let sum: number = 0
+
+for(let i = 1; i<=365; i++) {
+    sum = sum + i
+}
+
+
+console.log('total: ', sum)
