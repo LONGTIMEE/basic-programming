@@ -47,3 +47,29 @@ while (i<=31) {     //i<=31เงื่อนไข
 }
 
 console.log('total: ', sum)
+
+// the do while loop ทำก่อนเช็ค เช็คก่อนค่อยทำ
+
+let sum: number = 0
+let i: number = 1
+
+do {
+  sum = sum + i  
+  i++
+} while (i<=31)
+
+console.log('total: ', sum)
+
+// while (true) { //ทำให้พัง
+//     console.log("โสด")
+//   }
+
+let count: number = 0
+
+while (true) {
+  console.log("โสด")
+  count++
+  if (count === 10) {
+    break
+  }
+}
