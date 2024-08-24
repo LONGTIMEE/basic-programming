@@ -4,9 +4,9 @@
 // the while loop
 // the do while loop
 
+// loop คือ การส่งค่าออกมาเเบบหลายครั้งๆ
 
-
-for (let i = 0; i <=10 ; i++) {              //
+for (let i = 0; i <=10 ; i++) {              //let i = 0 คือloopที่จะเริ่มต้น  //i <=10 คือloopที่จะจบหรือให้สิ้นสุดที่เท่าไหร่
     console.log(i)  
 }
 
@@ -107,15 +107,15 @@ const bool:boolean = [True,True,false,false]
 
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
-console.log(cars[1])
+console.log(cars[1]) //ดึงประโยคจากในกลุ่มของ arry ข้างในของarry คือ ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
-const str:string = 'ชอบก็จัด ประหยัดทำไม'
+const str:string = 'ชอบก็จัด ประหยัดทำไม' 
 
-console.log(str[2])
+console.log(str[2]) //ดึงตัวอักษร
 
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
-console.log(cars.length)
+console.log(cars.length) // ให้นับว่าคำในarry มีกี่ประโยค
 
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
@@ -127,12 +127,12 @@ console.log(cars[2])
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
 for (let i = 0; i < 5; i++) {
-  console.log(cars[i])
+  console.log(cars[i]) // เอ่ยประโยคทั้งหมด ในarry หรือจะใช้เป็นเเบบอันล่างก็ได้
 }
 
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada','ฺBaBaGa']
 
-for (let i = 0; i < cars.length; i++) {
+for (let i = 0; i < cars.length; i++) { //อันนี้ใช้คล้ายๆ กับอันบนได้
   console.log(cars[i])
 }
 
@@ -144,19 +144,29 @@ for (let i = 0; i < cars.length; i++) {
   }
 }
 
-let i: number = 0
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada']
 
 while (i < cars.length) {
-  if (cars[i] === 'YaMaHa') {
+  if (cars[i] === 'YaMaHa') {  //ถ้าเจอคำว่า YaMaHa จะเเทนด้วย รถซื้อเเกงจะไปเเรงได้ไง
     console.log('รถซื้อเเกงจะไปเเรงได้ไง')
   }
 }
 
+const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada']
+
+for (let i = 0; x < cars.length; i++) {
+  if (cars[i] === 'YaMaHa') {
+    cars [i] = ('รถซื้อเเกงจะไปเเรงได้ไง')
+    console.log (cars)
+  }
+}
+
+
 const number:number[] = [1,2,3,4,5,6,7,8,9,10]
 
-for (let i = 0; i <=10; i++) {
-  if (number[i] === 3 || number[i] === 5 || number[i] === 7) {
-    number [i] = (0)
+for (let i = 0; i <=10; i++) { // เรียกประโยคทั้งหมดจาก arry
+  if (number[i] === 3 || number[i] === 5 || number[i] === 7) { // เเต่ถ้าเจอเลข 3 5 7
+    number [i] = (0) //จะเปลี่ยนเป็นเลข 0
     
   }      
 }
