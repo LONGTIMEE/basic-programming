@@ -82,3 +82,21 @@ console.log(nameArry)
 names.reverse()
 
 console.log(nameArry)
+
+//โค้ดในชีวิตจริง
+
+const me = {
+    firstname: 'Achitphol' ,
+    LastName : 'Lervilnareis',
+    age : 20,
+    phonenumber : 112,
+    sex : 'male'
+}
+
+// ประวัติส่วนตัว
+
+// ชื่อ : Achitphol
+// นามสกุล : Lervilnareis
+// อายุ : 20
+//เบอร์โทร : 112
+//เพศ : ชาย
