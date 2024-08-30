@@ -29,8 +29,8 @@ for(let i = 1; i<=31; i++) {        //วิธีการเพิ่มตั
 
 console.log('total: ', sum)
 
-let sum:number = 0
-let i: number = 1
+let sum:number = 0  //
+let i: number = 1 //เก็บจาก1ไป2ไป3-nan
 
 while (i<=31) {     //i<=31เงื่อนไข
     sum= sum+ i
