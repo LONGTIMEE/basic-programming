@@ -11,7 +11,7 @@ const me = {
     numBerCity : 10005,
     street :  'Beaver',
     numberStreet : 14,
-    e-Mail : 'aadawdsadawdadadadwdad@gmail.com'
+    mail : 'aadawdsadawdadadadwdad@gmail.com'
 }
 
 // ประวัติส่วนตัว
@@ -21,4 +21,6 @@ const me = {
 // อายุ : 20
 //เบอร์โทร : 112
 //เพศ : ชาย
-
+//ที่อยู่ : USA
+//เมือง : NewYorkCity
+//เ
