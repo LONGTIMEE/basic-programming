@@ -12,7 +12,6 @@ const me = {
     street :  'Beaver',
     numberStreet : 14,
     e-Mail : 'aadawdsadawdadadadwdad@gmail.com'
-    
 }
 
 // ประวัติส่วนตัว
