@@ -7,8 +7,8 @@ const me = {
     phoneNumber : 112,
     sex : 'male',
     addres : 'USA',
-    city : 'newYorkCity'
-    numBerCity : 10005
+    city : 'newYorkCity',
+    numBerCity : 10005,
     street :  'Beaver',
     numberStreet : 14,
     e-Mail : 'aadawdsadawdadadadwdad@gmail.com'
