@@ -1,14 +1,17 @@
 //โค้ดในชีวิตจริง
 
 const me = {
-    firstname: 'Achitphol' ,
-    LastName : 'Lervilnareis',
+    firstName: 'Mr.ChillTonTomSickLinkInMyMind' ,
+    LastName : 'MaiChiNaMaiChiNa',
     age : 20,
-    phonenumber : 112,
+    phoneNumber : 112,
     sex : 'male',
-    addres : 'NewYorkCity',
-    street :  'Beaver'
-    
+    addres : 'USA',
+    city : 'newYorkCity'
+    numBerCity : 10005
+    street :  'Beaver',
+    numberStreet : 14,
+    e-Mail : 'aadawdsadawdadadadwdad@gmail.com'
     
 }
 
