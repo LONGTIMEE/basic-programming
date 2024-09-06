@@ -104,3 +104,38 @@ const mybro = [{
 }]
 
 console.log(mybro[2].firstName)
+
+const myBro = [{
+    firstName: 'Lisa',
+    lastName : 'CiCiCi',
+    aka : 'SuperWoMen',
+    age : 16
+}, {
+    firstName: 'Rosse',
+    lastName : 'CiCiCi',
+    aka : 'RoseOnPink',
+    age : 20
+}, {
+    firstName: 'Jiso',
+    lastName : 'CiCiCi',
+    aka : 'Jinny',
+    age : 24
+}, {
+    firstName: 'Jenny',
+    lastName : 'CiCiCi',
+    aka : 'wonDerWoMen',
+    age : 17
+}]
+
+const myFriendsAKA = myBro.map(function(element, index) {
+return ({
+    firstName: element.firstName,
+    aka: element.aka
+})
+})
+
+const myFriendsMoreThen = myBro.filter(function(element, index) {
+return element.age > 19 && element.lastName === 'CiCiCi'
+})
+
+console.log(myFriendsMoreThen)
