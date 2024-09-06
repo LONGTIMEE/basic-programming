@@ -32,7 +32,7 @@ const aboutMe = {
     street :  'Beaver',
     numberStreet : 14,
     mail : 'aadawdsadawdadadadwdad@gmail.com',
-    fan : {
+    fan : {                 //obejet
         firstName: 'Lisa',
         lastName : 'MamaMai',
         age : 20000,
