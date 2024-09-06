@@ -80,3 +80,27 @@ const aboutMe = {
 
 
 console.log(aboutMe.mybro.aka)
+
+const mybro = [{
+    firstName: 'Lisa',
+    lastName : 'CiCiCi',
+    aka : 'SuperWoMen',
+    age : 16
+}, {
+    firstName: 'Rosse',
+    lastName : 'CiCiCi',
+    aka : 'RoseOnPink',
+    age : 20
+}, {
+    firstName: 'Jiso',
+    lastName : 'CiCiCi',
+    aka : 'Jinny',
+    age : 24
+}, {
+    firstName: 'Jenny',
+    lastName : 'CiCiCi',
+    aka : 'wonDerWoMen',
+    age : 17
+}]
+
+console.log(mybro[2].firstName)
