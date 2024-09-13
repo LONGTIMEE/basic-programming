@@ -342,7 +342,7 @@ const gameD =[
     }
 }
 
-console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างนอกobject
+console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างคือข้างนอกobject
 
 console.log(person.fullname()) //ในบรรทัดเดียวกัน
 
