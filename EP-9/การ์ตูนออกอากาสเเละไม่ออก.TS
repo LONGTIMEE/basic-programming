@@ -3977,14 +3977,14 @@ const animeD = {
             ]
         }
     ],
-    airing: function(){                                         //หาอันที่ฉายอยู่
-        return this.data.filter(function(elements, index) {
-            return elements.airing === true
+    airing: function(){                                         
+        return this.data.filter(function(elements, index) {     
+            return elements.airing === true                     //อันนี้เป็นเเบบหาอันที่ฉายอยู่
         })
     },
-    notAiring: function(){                                      //หาอันที่ไม่ฉาย
+    notAiring: function(){                                      
         return this.data.filter(function(elements, index) {
-            return elements.airing === false
+            return elements.airing === false                    //อันนี้เป็นเเบบหาอันที่ไม่ได้ฉายเเล้ว
         })
     }
 }
