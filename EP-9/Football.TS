@@ -955,8 +955,14 @@ const football = {
         return this.league.standings.filter(function(element, index){
             return element.away.lose > 5
         })
-        }
-    }
+    },
+    pointLowWerEveryTeamInLeague: function() {                        //ข้อที่โดนตัดออก (ตรวจสอบว่าทีมที่คะเเนนตำที่สุดมีกี่คะเเนน)
+        return this.league.standings.filter(function(element, index){
+          return element.team.name === 'Southampton'
+          })[0].points
+
+}
+
 
 
 
