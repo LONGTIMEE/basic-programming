@@ -976,8 +976,3 @@ const football = {
 //  console.log(football.homeLose())
 //  console.log(football.awayLose())
 // console.log(football.pointLowWerEveryTeamInLeague())
-
-
-
-
-
