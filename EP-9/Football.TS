@@ -960,7 +960,7 @@ const football = {
         return this.league.standings.filter(function(element, index){
           return element.team.name === 'Southampton'
           })[0].points
-
+    }      
 }
 
 
