@@ -975,7 +975,7 @@ const football = {
 //  console.log(football.goalsDiffOFF())
 //  console.log(football.homeLose())
 //  console.log(football.awayLose())
-//console.log(football.pointLowWerEveryTeamInLeague())
+// console.log(football.pointLowWerEveryTeamInLeague())
 
 
 
