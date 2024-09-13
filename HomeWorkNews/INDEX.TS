@@ -469,5 +469,5 @@ const news = {
     
     
     const covidDead = news.results.filter(function(element, index) {
-    return element.language === 'thai'
-    )}
+      return element.language === 'thai'  )}
+    
