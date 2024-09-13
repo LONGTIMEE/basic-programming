@@ -3,7 +3,7 @@
         return element.rank === 1
     })
 
-},
+}
 
     topfour: function(){
     return this.league.standings.filter(function(element, index){
