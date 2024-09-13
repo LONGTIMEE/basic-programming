@@ -1,4 +1,3 @@
-@ -0,0 +1,638 @@
 const news = {
     "status": "success",
     "totalResults": 2379,
