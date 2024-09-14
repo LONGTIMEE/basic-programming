@@ -339,8 +339,8 @@ const gameD =[
     job: 'CEO',
     fullname: function() {
         return person.firstName + " " + person.lastName
-    }
-}
+    },
+},
 
 console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างคือข้างนอกobject
 
@@ -360,7 +360,7 @@ console.log(person.fullname()) //ในบรรทัดเดียวกั�
         job: 'CEO',
         fullname: function() {
             return this.firstName + " " + this.lastName //thisความหมายอ้างอิงในก้อนนี้
-        }
+        },
     }
     
     console.log(boyfriend.fullname())
