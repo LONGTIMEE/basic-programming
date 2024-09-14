@@ -928,8 +928,8 @@ const football = {
     },
     favoriteTeam: function() {
         return this.league.standings.filter(function(element, index){
-            return element.rank === 1
-        })
+            return element.team.name === 'Manchester City'
+        })[0].team.name
     },
     goalsDiffFavoriteTeam: function() {
         return this.league.standings.filter(function(element, index){
