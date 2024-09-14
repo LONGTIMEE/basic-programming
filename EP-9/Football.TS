@@ -954,7 +954,7 @@ const football = {
     awayLose: function() {
         return this.league.standings.filter(function(element, index){
             return element.away.lose > 5
-        })
+        })                                                            //ทำยังไงถึงจะเอ่ยชื่อทั้งหมดโดยไม่โชว์ค่าอื่นๆ
     },
     pointLowWerEveryTeamInLeague: function() {                        //ข้อที่โดนตัดออก (ตรวจสอบว่าทีมที่คะเเนนตำที่สุดมีกี่คะเเนน)
         return this.league.standings.filter(function(element, index){
