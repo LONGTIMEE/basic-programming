@@ -916,12 +916,12 @@ const football = {
             return element.rank === 1
         })
     },
-    topfour: function() {
+    topFour: function() {
         return this.league.standings.filter(function(element, index){
             return element.rank < 5
         })
     },
-    faillrank: function() {
+    faillRank: function() {
         return this.league.standings.filter(function(element, index){
             return element.rank >17
         })
