@@ -3,7 +3,7 @@ const prefix:string = 'พณ.ท่าน ร้อยตำรวจตรว�
 const fname:string = 'พชรพล'
 const lname:string = 'คนหล่อ'
 
-console.log(prefix.concat(" ",fname, " " , lname)) //ต่อstring
+console.log(prefix.concat(" ",fname, " " , lname)) //concatคือการต่อstring โดยที่เราไม่ต้องทำเเบบอันล่าง
 
 console.log(prefix + " " + fname + " " + lname) //ต่อstringไปเเบบเรื่อยๆ
 
