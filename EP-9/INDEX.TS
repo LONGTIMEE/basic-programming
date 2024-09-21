@@ -344,7 +344,9 @@ const gameD =[
 
 console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างคือข้างนอกobject
 
-console.log(person.fullname()) //ในบรรทัดเดียวกัน
+
+//อันล่างนี้คือ phane2 โดยใช้ fullname กับ lastname นำมาบวกกัน โดยใช้ชื่อ fullname
+//console.log(person.fullname()) //ในบรรทัดเดียวกัน
 
 
  function A(){
@@ -364,3 +366,4 @@ console.log(person.fullname()) //ในบรรทัดเดียวกั�
     }
     
     console.log(boyfriend.fullname())
+}    
