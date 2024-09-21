@@ -353,7 +353,7 @@ console.log(person.fullname()) //ในบรรทัดเดียวกั�
 //      console.log(person.firstName + " " + person.lastName)
 //  }
 //  function B(){
-//      console.log(person.firstName + " " + person.lastName)
+//  }    console.log(person.firstName + " " + person.lastName)
 
      const boyfriend = {
         firstName: 'Tim',
@@ -366,4 +366,4 @@ console.log(person.fullname()) //ในบรรทัดเดียวกั�
     }
     
     console.log(boyfriend.fullname())
-}    
+    
