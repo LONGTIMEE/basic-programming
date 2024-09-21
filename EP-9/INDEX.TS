@@ -340,9 +340,9 @@ const gameD =[
     fullname: function() {
         return person.firstName + " " + person.lastName
     },
-},
+}
 
-console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างคือข้างนอกobject
+//console.log(person.firstName + " " + person.lastName + " "  +person.age)    //ลงจากนี้ข้างคือข้างนอกobject
 
 
 //อันล่างนี้คือ phane2 โดยใช้ fullname กับ lastname นำมาบวกกัน โดยใช้ชื่อ fullname
