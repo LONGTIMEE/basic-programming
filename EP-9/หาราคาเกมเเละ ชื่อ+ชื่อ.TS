@@ -349,11 +349,11 @@ console.log(person.firstName + " " + person.lastName + " "  +person.age)    //�
 console.log(person.fullname()) //ในบรรทัดเดียวกัน
 
 
- function A(){
-     console.log(person.firstName + " " + person.lastName)
- }
- function B(){
-     console.log(person.firstName + " " + person.lastName)
+//  function A(){
+//      console.log(person.firstName + " " + person.lastName)
+//  }
+//  function B(){
+//      console.log(person.firstName + " " + person.lastName)
 
      const boyfriend = {
         firstName: 'Tim',
