@@ -481,5 +481,5 @@ const news = {
 
 })
 
-console.log(newsFiveMoreThan)
+console.log(news)
        
