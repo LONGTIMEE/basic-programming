@@ -468,7 +468,7 @@ const news = {
     }
     
     
-    const new = news.results.filter(function(element, index){
+    const new1 = news.results.filter(function(element, index){
       return element.language === "thai" && element.source_name.includes("Thai Pbs News")
 }).map(function(element, index){
       return ({
