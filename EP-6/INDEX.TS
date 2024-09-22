@@ -157,10 +157,10 @@ while (i < cars.length) {
 
 const cars:string[] = ['Toyota','Honda','Suzuki','YaMaHa','Mazada']
 
-for (let i = 0; x < cars.length; i++) {
-  if (cars[i] === 'YaMaHa') {
-    cars [i] = ('รถซื้อเเกงจะไปเเรงได้ไง')
-    console.log (cars)
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i] === 'YaMaHa') {         //ถ้าเจอคำว่า 'YaMaHa'
+    cars [i] = ('รถซื้อเเกงจะไปเเรงได้ไง')   //จะเเทนด้วยคำว่า 'รถซื้อเเกงจะไปเเรงได้ไง' เเละ จะตอบพร้อมดวย ยี่ห้อ อื่นๆ 
+    console.log (cars)                  //อย่างเช่น ["Toyota", "Honda", "Suzuki", "รถซื้อเเกงจะไปเเรงได้ไง", "Mazada"]
   }
 }
 
