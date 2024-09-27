@@ -17,7 +17,7 @@ function login(email: string, password: string) {
 // }] || []
 
 if (user.length > 0) {
-    if (atob(user[0].password) === password) {
+    if (atob(user[0].password) === password) {  //atob ฟังก์ชันเข้ารหัส 
         console.log('เข้าสู่ระบบ')
     } else {
         console.log('รหัสผ่านไม่ถุกต้อง')
