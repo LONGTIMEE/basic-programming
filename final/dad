@@ -172,3 +172,28 @@ function cutNameWithMap(array: string[]) {
 }
 
 console.log(cutNameWithMap(names))
+
+
+const account = {
+    name: 'ออมกับเทอออ',
+    balance: 0,
+    deposit: function(amount: number) {
+        if (amount < 0) {
+            console.log('กรุราระบุจำนวนเงิน')
+            return
+        }
+        this.balance = this.balance + amount
+        console.log('ฝากเงินจำนวน ' + amount + ' ยอดคงเหลือ ' + this.balance)
+    },
+    withdraw: function(amount: number) {
+        if (amount > this.balance) {
+        console.log('เงินไม่พอ คุณมียอดเงินคงเหลือ ' + this.balance)
+        return
+    }
+    this.balance = this.balance
+    console.log('ถอนเงิน ' + amount + ' ยอดเงินคงเหลือ' + this.balance)
+    }
+}
+
+  account.deposit(699)
+ account.withdraw(799)
