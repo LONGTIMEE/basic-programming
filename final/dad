@@ -25,5 +25,23 @@ for (let i = 0; i < cars.length; i++) {
 let i = 0
 while (i < cars.length) {
     console.log("while", cars[i]);
-    i++
+    i++;
 }
+
+//Arry method
+
+const cars = ['toyota','bmw','honda']; //
+
+//เล่นสมาชิกตัวหลัง
+
+cars.pop() // ['toyota','bmw',]
+
+cars.push('Benz')
+
+cars.shift() // ['bmw','honda']
+
+cars.unshift('BMX')
+
+cars.sort() // A-Z
+
+cars.reverse() // Z-A
