@@ -45,3 +45,94 @@ cars.unshift('BMX')
 cars.sort() // A-Z
 
 cars.reverse() // Z-A
+
+
+const person = {
+    firstname: 'john',
+    lastname: 'Doe',
+    age: 15,
+    isMale: true,
+    sister: {
+        firstname: 'Jane',
+        lastname: 'Doe',
+        age: 12,
+        isMale: false
+
+    },
+};
+
+person.sister.lastname = "smith"
+
+
+const person = [{
+    firstname: 'john',
+    lastname: 'Doe',
+    age: 15,
+    isMale: true,
+    sister: {
+        firstname: 'Jane',
+        lastname: 'Doe',
+        age: 12,
+        isMale: false
+
+    },
+},]
+const friend = [{
+    firstname: 'john',
+    lastname: 'Doe',
+    age: 15,
+    isMale: true,
+    sister: {
+        firstname: 'Jane',
+        lastname: 'Doe',
+        age: 12,
+        isMale: false
+        },   
+    },
+];
+
+const productsData = [
+    {price: 100},
+    {price: 200},
+    {price: 150},
+    {price: 300},
+    {price: 250},
+];
+
+function updatePriceWithForLoop(
+    products: {
+        price: number;
+    }[]
+)   {
+    const m: {
+        price: number;
+    } []  = [];
+    for(let i = 0; i < products.length; i++) {
+        if (products[i].price > 150) {
+            m.push(products[i])
+        }
+    }
+    
+    
+    for(let i = 0; i < m.length; i++) {
+        m[i].price = m[i].price * 1.1;
+    }
+    return m;
+}
+
+function updatePrice(products: {
+    price: number;
+}[]) {
+    return products.filter(function (element, index){
+        return element.price >150;
+    })
+    .map(function (element, index) {
+        return {
+            price: element.price * 1.1,
+        };
+    });
+}
+
+
+console.log(updatePriceWithForLoop(productsData))
+// console.log(updatePrice(productsData))
