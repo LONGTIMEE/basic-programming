@@ -157,3 +157,18 @@ function coverToArryStringWithMap(array: number[]) {
 }
 
 console.log(coverToArryString(number))
+
+
+const names = ["John Doe", "Jane Smith","Jack Brown"];
+
+function cutNameWithMap(array: string[]) {
+    return array.map(function(element, index) {
+        const cutName = element.split(" ") //['John'0,'Doe'1]
+        return {
+            firstName: cutName[0],
+            lastName: cutName[1]
+        }
+    })
+}
+
+console.log(cutNameWithMap(names))
