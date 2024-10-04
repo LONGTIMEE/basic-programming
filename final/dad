@@ -9,3 +9,21 @@ while (i <= 10) {
 }
 
 while loop
+
+// arry เอามาเรียงต่อกัน เก็บ string ได้ง่ายกว่า เช่น ['honda','yamaha'] ควรเป็นสมาชิกเดียวกันทั้งหมด
+
+const cars = ['toyota','bmw','honda']
+
+cars.length // มีจำนวนสมาชิกกี่ตัว
+
+cars[1] = 'Suzuki'
+
+for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i]) // i คือตัวนับจำนวนรอบ
+}
+
+let i = 0
+while (i < cars.length) {
+    console.log("while", cars[i]);
+    i++
+}
