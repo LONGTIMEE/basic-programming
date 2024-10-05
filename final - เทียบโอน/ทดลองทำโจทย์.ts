@@ -87,7 +87,7 @@ console.log(incrementedNumbersWithForLoop)
 const names = ["John Doe","jane Smith","Jack Brown"];
 
 // ท่าโครตยาก
-function cutNAmeWithWhileLoops(names: string []) {
+function cutNameWithWhileLoops(names: string []) {
     const fullNAmeArray: {
         firstName: string;
         LastName:  string;
@@ -106,3 +106,14 @@ function cutNAmeWithWhileLoops(names: string []) {
     return fullNAmeArray;
 }
 
+
+
+function cutNameWithMap(name: string []) {
+    return names.map(function (element, index) {
+        const cutName = element.split(" ") // ["John", "Doe"]
+        return ({
+           fristName: cutName[0] ,
+           lastName: cutName[1],
+        })
+    })
+}
