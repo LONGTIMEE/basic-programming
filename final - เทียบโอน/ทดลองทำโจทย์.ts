@@ -27,3 +27,8 @@ function covertToArrayStringWithMap(arr: number[]) {
         return element.toString();
     })
 }    
+
+
+console.log(covertToArrayString([1,2,3,4,5]))
+console.log(covertToArrayString2([1,2,3,4,5]))
+console.log(covertToArrayStringWithMap([1,2,3,4,5]))
