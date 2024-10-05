@@ -967,7 +967,9 @@ const noNewCaseOnlyProvine = data.filter(function (element, index {
         province: element.province,
         total: element.total_case,
     });
-}).map; 
+}).filter(function (element, index) {
+    return element.province !== 'กรุงเทพ'
+}); 
 
 
 
