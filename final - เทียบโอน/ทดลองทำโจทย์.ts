@@ -14,7 +14,7 @@ function covertToArrayString2(arr: number[]) {
     
     const newArray: string[] = [];
     let i = 0;
-    while (i < arr.length {
+    while (i < arr.length) {
         newArray.push(arr[i].toString());
         i++
     }
