@@ -33,3 +33,20 @@ function covertToArrayStringWithMap(arr: number[]) {
 console.log(covertToArrayString([1,2,3,4,5]))
 console.log(covertToArrayString2([1,2,3,4,5]))
 console.log(covertToArrayStringWithMap([1,2,3,4,5]))
+
+
+const item = [
+    { products: "Pen", price: 15},
+    { products: "Notebook", price: 50},
+    { products: "Eraser", price: 5},
+];
+
+const checkItem = item.filter(function(element, index) {
+    return element.price > 10
+}).map(function (element, index) {
+    return ({
+        name: element.products
+    })
+})
+
+console.log(checkItem)
