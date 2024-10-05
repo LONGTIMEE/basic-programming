@@ -106,7 +106,7 @@ function cutNameWithWhileLoops(names: string []) {
     return fullNAmeArray;
 }
 
-
+// ง่าย
 
 function cutNameWithMap(name: string []) {
     return names.map(function (element, index) {
