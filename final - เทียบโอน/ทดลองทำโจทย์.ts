@@ -1,18 +1,22 @@
+// ยาก
 function covertToArrayString(arr: number[]) {
     
-    // ยาก
+    
     const newArray: string[] = [];
     for(let i = 0; i < arr.length; i++) {
         newArray.push(arr[i].toString())
     }
 }
 
-
+// ยากที่สุด
 function covertToArrayString2(arr: number[]) {
     
-    // ยาก
+    
     const newArray: string[] = [];
-    for(let i = 0; i < arr.length; i++) {
-        newArray.push(arr[i].toString())
+    let i = 0;
+    while (i < arr.length {
+        newArray.push(arr[i].toString());
+        i++
     }
+    return newArray
 }
