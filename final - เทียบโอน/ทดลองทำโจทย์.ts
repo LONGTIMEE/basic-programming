@@ -121,6 +121,8 @@ function cutNameWithMap(name: string []) {
 console.log(cutNameWithWhileLoops(names))
 console.log(cutNameWithMap(names))
 
+// phase อื่น
+
 
 const people = [
     { name: "Alice", age: 17 },
