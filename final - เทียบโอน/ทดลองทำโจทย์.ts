@@ -50,3 +50,34 @@ const checkItem = item.filter(function(element, index) {
 })
 
 console.log(checkItem)
+
+
+const fruits = ["apple","banana","cherry","date"];
+
+const longFruits = fruits.filter(function (element, index) {
+    return element.length > 5
+}).map(function (element, index) {
+    return element.toUpperCase()
+}).reverse() // เรียง ตัว A-Z ขึ้นก่อน
+
+console.log(longFruits)
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+//ท่าง่าย
+
+const incrementedNumbers = numbers.map(function (element, index) {
+    return element + 1
+})
+
+console.log(incrementedNumbers)
+
+// ท่ายาก
+
+const incrementedNumbersWithForLoop: number []= []
+
+for(let i = 0; i < numbers.length; i++) {
+    incrementedNumbersWithForLoop.push(numbers[i] + 1)
+}
+
+console.log(incrementedNumbersWithForLoop)
