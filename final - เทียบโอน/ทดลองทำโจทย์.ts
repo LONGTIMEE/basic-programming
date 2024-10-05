@@ -81,3 +81,8 @@ for(let i = 0; i < numbers.length; i++) {
 }
 
 console.log(incrementedNumbersWithForLoop)
+
+// phase อื่น
+
+const names = ["John Doe","jane Smith","Jack Brown"];
+
