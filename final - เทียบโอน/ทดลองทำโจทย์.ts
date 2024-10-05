@@ -135,3 +135,5 @@ const updatePeople = people.map(function (element, index) {
         isAdult: element.age > 18
     }
 })
+
+console.log(updatePeople)
