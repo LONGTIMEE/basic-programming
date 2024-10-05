@@ -139,3 +139,32 @@ const updatePeople = people.map(function (element, index) {
 })
 
 console.log(updatePeople)
+
+
+const Person = {
+    name: "Alice",
+    age: 17,
+    checkIsAdult: function () {
+       return this.age > 18
+    }
+};
+
+console.log(person.checkIsAdult())
+
+const Account = {
+    balance: 1000,
+    deposit: function(amounts: number) {
+        this.balance = this.balance + amounts;
+    },
+    withdraw: function(amount: number) {
+        if (this.balance < amount) {
+            console.log("ยอดเงินไม่พอถอน ยอดเงินปัจจุบันคือ " + this.balance)
+            return
+        }
+        this.balance = this.balance - amount
+        console.log("ถอนเงิน " + amount + " คงเหลือ " + this.balance)
+    }
+};
+
+Account.deposit(500);
+console.log(Account.balance); //1500
