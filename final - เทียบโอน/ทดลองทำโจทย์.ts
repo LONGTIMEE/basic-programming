@@ -86,3 +86,10 @@ console.log(incrementedNumbersWithForLoop)
 
 const names = ["John Doe","jane Smith","Jack Brown"];
 
+// ท่ายาก
+function cutNAmeWithWhileLoops(names: string []) {
+    for (let i = 0; i < names.length; i++) {
+        const cutNAme = names [i].split(" ")  // ตัวอย่าง ["John", "Doe"]
+    }
+}
+
