@@ -120,3 +120,18 @@ function cutNameWithMap(name: string []) {
 
 console.log(cutNameWithWhileLoops(names))
 console.log(cutNameWithMap(names))
+
+
+const people = [
+    { name: "Alice", age: 17 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 },
+];
+
+const updatePeople = people.map(function (element, index) {
+    return {
+        name: element.name,
+        age: element.age,
+        isAdult: element.age > 18
+    }
+})
