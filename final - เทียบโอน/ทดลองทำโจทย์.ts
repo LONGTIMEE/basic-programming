@@ -20,3 +20,10 @@ function covertToArrayString2(arr: number[]) {
     }
     return newArray
 }
+
+// ง่าย
+function covertToArrayStringWithMap(arr: number[]) {
+    return arr.map(function(element, index) {
+        return element.toString();
+    })
+}    
