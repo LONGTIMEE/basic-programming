@@ -4,8 +4,9 @@ function covertToArrayString(arr: number[]) {
     
     const newArray: string[] = [];
     for(let i = 0; i < arr.length; i++) {
-        newArray.push(arr[i].toString())
+        newArray.push(arr[i].toString());
     }
+    return newArray
 }
 
 // ยากที่สุด
