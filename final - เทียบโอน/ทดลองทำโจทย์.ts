@@ -117,3 +117,6 @@ function cutNameWithMap(name: string []) {
         })
     })
 }
+
+console.log(cutNameWithWhileLoops(names))
+console.log(cutNameWithMap(names))
