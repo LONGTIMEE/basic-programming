@@ -184,6 +184,21 @@ const person2 = {
 
 console.log(person2.getFuLLName)
 
+const inventory = {
+    name: 'Laptop Store',
+    quantity: 5,
+    isAvailable: function() {
+      return this.quantity > 0  
+    }
+}
+
+console.log(inventory.isAvailable())
+
+
+
+
+
+
 const account = {
     name: 'ออมกับเทอออ',
     balance: 0,
