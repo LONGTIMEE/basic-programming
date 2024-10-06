@@ -1,4 +1,4 @@
-for loop
+// for loop
 
 for (let i = 0; i < 12; i++) {//i < 12 หมุนกี่รอบ i++ เพิ่มจำนวนรอบ ขึ้นที่ละ1
     console.log(i)
