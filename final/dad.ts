@@ -173,6 +173,16 @@ function cutNameWithMap(array: string[]) {
 
 console.log(cutNameWithMap(names))
 
+const person2 = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 21 ,
+    getFullName: Function() {
+        return this.firstName + ' ' + this.lastName
+    }
+}
+
+console.log(person2.getFuLLName)
 
 const account = {
     name: 'ออมกับเทอออ',
